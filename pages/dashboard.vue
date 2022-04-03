@@ -217,9 +217,9 @@ export default {
     }
   },
   mounted () {
-    this.setAuth()
-    this.getHistory()
-    this.getWater()
+    // this.setAuth()
+    // this.getHistory()
+    // this.getWater()
   }
 }
 </script>

@@ -4,7 +4,7 @@
     <b-col md="11">
     <b-card>
       <h1>
-        Account DAta
+        Account Data
       </h1>
       <p>Device Id: <b>{{device_id}}</b></p>
     <b-table striped hover :items="items" :fields="fields"></b-table>
@@ -41,7 +41,7 @@ export default {
     }
   },
   mounted () {
-    this.setAuth()
+    // this.setAuth()
   }
 }
 </script>

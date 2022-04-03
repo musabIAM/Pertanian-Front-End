@@ -93,6 +93,8 @@ export default {
         password: this.form.pass
       }
 
+      console.log(data)
+
       const response = await api.requestDataLogin(data)
 
       if (response.data.status === false) {

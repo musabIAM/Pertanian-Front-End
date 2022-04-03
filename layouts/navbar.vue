@@ -18,6 +18,7 @@
             <em><b-img src="../assets/farmer.png"></b-img></em>
           </template>
           <b-dropdown-item href="profile">Profile</b-dropdown-item>
+          <b-dropdown-item href="config">Account Config</b-dropdown-item>
           <b-dropdown-item @click="logout()">Sign Out</b-dropdown-item>
         </b-nav-item-dropdown>
       </b-navbar-nav>
